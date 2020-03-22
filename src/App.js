@@ -43,7 +43,7 @@ function App() {
   useEffect(() => {
     EventHandler({eventName: 'summary'})
       .then(summaryListResponse => {
-        setSummaryList(summaryListResponse.Countries);
+        setSummaryList(JSON.parse(summaryListResponse).Countries);
       });
     Object.keys(statusMapping).map((status) => {
       EventHandler({eventName: 'byCountry', options: { country: 'india', status }})
