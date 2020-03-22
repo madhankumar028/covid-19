@@ -2,7 +2,7 @@
   padding: $space--xs $space--md $space--md;
   border-radius: $space--xs;
   @include surface('2', null);
-  background: $color__white;
+  background: #1e2730;
   display: flex;
   transition: all 0.3s ease;
   &:hover {

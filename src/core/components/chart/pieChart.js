@@ -6,25 +6,11 @@ const PieChart = ({ dataList }) => {
 	const pieOptions = {
 		title: "",
 		pieHole: 0.4,
-		slices: [
-			{
-				color: "#2BB673"
-			},
-			{
-				color: "#d91e48"
-			},
-			{
-				color: "#007fad"
-			},
-			{
-				color: "#e9a227"
-			}
-		],
 		legend: {
 			position: "bottom",
 			alignment: "center",
 			textStyle: {
-				color: "233238",
+				color: "#fff",
 				fontSize: 14
 			}
 		},
@@ -36,6 +22,7 @@ const PieChart = ({ dataList }) => {
 		tooltip: {
 			showColorCode: true
 		},
+		backgroundColor: '#1e2730',
 		chartArea: {
 			left: 0,
 			top: 0,
