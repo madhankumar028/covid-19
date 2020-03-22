@@ -79,7 +79,7 @@ function App() {
               <PieChart dataList={confirmedCasesList} />
             </div>
         }
-        {
+        {/* {
           deathCasesList.length > 0 &&
             confirmedCasesList.length > 0 &&
               recoveredCasesList.length > 0 &&
@@ -90,7 +90,7 @@ function App() {
                     recovered={recoveredCasesList}
                   />
                 </div>
-        }
+        } */}
       </div>
     </div>
   );
